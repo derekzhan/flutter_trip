@@ -49,3 +49,8 @@
 1. 添加定位功能。
 2. 用官方 [webview_flutter](https://pub.flutter-io.cn/packages/webview_flutter) 插件替换 [flutter_webview_plugin](https://pub.flutter-io.cn/packages/flutter_webview_plugin)
 
+出现版本不对的情况需要按下面的步骤执行：
+1. flutter channel
+2. git checkout beta
+3. flutter update-packages
+4. flutter run
